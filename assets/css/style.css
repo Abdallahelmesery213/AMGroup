@@ -1,0 +1,405 @@
+
+/* start header */
+
+
+header{
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 999;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+header .header-top{
+    width: 100%;
+    color: #fff;
+    background-color: #087434;
+    direction: rtl;
+    padding: 10px 0;
+}
+header .header-top .links-top{
+    text-transform: uppercase;
+    cursor: pointer;
+}
+/* .header-wrap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+*/
+.header-top .links-top .brd{
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+    padding: 0 10px;
+    margin: 0 10px;
+}
+.header-top .links-top a{
+    text-decoration: none;
+    color: #fff;
+}
+.header-bottom{
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    -webkit-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+} 
+header .header-bottom nav a img{
+    width: 145px;
+    height: 50px;
+}
+/* .header-wrap.sticky {
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    background: #fff;
+} */
+header nav ul .nav-item a, header nav .dropdown a{
+    color: #007135 !important;
+    font-size: 20px;
+    text-decoration: none;
+}
+header nav ul li{
+    margin: 0 12px;
+}
+/* end header */
+
+/* start carousel */
+.carousel{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.carousel .owl-carousel img{
+    min-height: 300px;
+}
+.owl-carousel .owl-item img {
+    width: 95%;
+}
+.owl-carousel .owl-nav{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.owl-carousel .owl-prev, .owl-carousel .owl-next{
+    margin: 0 5px;
+    font-size: 20px;
+}
+/* end carousel */
+
+/* start about section */
+.about{
+    padding: 50px 0;
+    background-image: url(/assets/imgs/image-effect.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    margin-bottom: 60px;
+    position: relative;
+}
+.about h2, .about h3{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 50px;
+}
+.about .title{
+    margin-bottom: 40px;
+}
+.about .content{
+    width: 80%;
+    margin: auto;
+}
+.about .content p{
+    font-size: 20px;
+    line-height: 30px;
+}
+/* end about section */
+
+/* start business*/
+.business{
+    margin-bottom: 60px;
+}
+.business .title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.business .title h2{
+    color: #18673b;
+    font-size: 39px;
+    font-weight: 700;
+}
+.business .content p{
+    font-size: 20px;
+}
+/* end business*/
+
+/* start export */
+.export{
+    background-color: #eee;
+    padding: 50px 0;
+}
+.export .title h2{
+    color: #EB1C23;
+    font-weight: 700;
+    font-size: 50px;
+}
+.export .title p{
+    font-size: 20px;
+    color: rgb(235,28,35);;
+}
+.export a.btn{
+    display: inline-flex;
+    justify-content: center;
+    margin: auto;
+    background-color: #EB1C23;
+    border: none;
+    color: #fff;
+    padding: 10px 50px;
+    border-radius: 25px;
+    font-size: 22px;
+    font-weight: 700;
+}
+.export a{
+    color: #fff;
+    text-decoration: none;
+}
+/* end export */
+
+/* start footer */
+footer .footer-section{
+    padding: 50px 0 20px;
+    background-image: url(/assets/imgs/image-effect.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+}
+footer .title p{
+    font-size: 17px;
+    line-height: 12px;
+}
+footer .title p span{
+    font-weight: 500;
+}
+footer img{
+    border-radius: 10px;
+}
+footer .footer-section .description{
+    display: inline-flex;
+    align-items: center;
+    width: 80%;
+}
+footer .footer-section .description p{
+    margin: 0 20px;
+}
+footer .footer-bottom ul li{
+    cursor: pointer;
+}
+footer .footer-bottom ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+/* end footer */
+
+/* export screen */
+/* start export top */
+/* .export-screen .export-top{
+background-image: url(/assets/imgs/export_top.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+} */
+/* end export top */
+.export-screen{
+color: #fff;
+}
+.export-screen .export-content{
+    background-image: url(/assets/imgs/image-effect.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 60px 0;
+    margin-bottom: 50px;
+}
+.export-screen .export-content .title h2{
+    font-size: 38px;
+    line-height: 48px;
+    font-weight: 600;
+}
+.export-screen .export-content .title h4{
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.export-screen .export-text{
+    width: 90%;
+}
+.export-screen .export-text p{
+    font-size: 20px;
+    font-weight: 400;
+}
+.export-screen .category .actions{
+    display: inline-flex;
+    flex-direction: column;
+}
+.export-screen .category p{
+    color: #007032;
+    text-decoration: none;
+    display: inline-flex;
+    border-top: 3px solid #007032;
+    padding: 5px 20px;
+}
+.export-screen .lists {
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ebe6df; 
+    /* display: flex;
+    justify-content: space-around; */
+    margin: auto;
+    margin-bottom: 40px;
+    position: relative;
+}
+.export-screen .lists .item .form-select{
+    font-size: 15px;
+}
+.export-screen .lists .item h5{
+    color: #666;
+    font-size: 17px;
+}
+.export-screen .lists .btn-success {
+    position: relative;
+    transform: translateY(-50%);
+    top: 50%;
+    padding: 5px 20px;
+}
+/* end export screen */
+
+/* start about screen */
+.about-screen .our-mission{
+    margin-bottom: 60px;
+}
+.about-screen .our-mission h2{
+    color: #18673b;
+    font-size: 38px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.about-screen .our-mission .part-mission.part1{
+    background-color: #f59e03;
+}
+.about-screen .our-mission .part-mission.part2{
+    background-color: #00789c;
+}
+.about-screen .our-mission .part-mission.part3{
+    background-color: #ec5408;
+}
+.about-screen .our-mission .part-mission{
+    display: flex;
+    flex-direction: column;
+    min-height: 310px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: relative;
+    padding: 0 15px;
+    color: #fff;
+}
+.about-screen .our-mission .part-mission img{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 25px;
+}
+.about-screen .our-mission .part-mission h5{
+    font-size: 24px;
+    font-weight: 400;
+    position: absolute;
+    top: 27%;
+}
+.about-screen .our-mission .part-mission p{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    position: absolute;
+    top: 42%;
+}
+/* end about screen */
+
+/* start career screen */
+.career-screen .about .content{
+    width: 100%;
+}
+.career-screen .form{
+    width: 50%;
+    margin: auto;
+}
+.career-screen .form  h3{
+    color: #007032;
+    font-weight: 600;
+    font-size: 35px;
+}
+.career-screen .form button{
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+}
+.career-screen .form label{
+    color: #666666;
+    font-size: 18px;
+    font-weight: 600;
+}
+/* end career screen */
+
+/* media query screen */
+@media only screen and (max-width: 992px) and (min-width: 768px)  {
+    .about-screen .our-mission .part-mission p{
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .about-screen .our-mission .part-mission{
+        border-radius: 5px;
+        margin-bottom: 25px;
+    }
+    .about-screen .our-mission .part-mission p{
+        font-size: 20px;
+        line-height: 28px;
+        width: 95%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    header .header-top{
+        font-size: 18px;
+        text-align: center;
+    }
+    .about-screen .our-mission .part-mission p{
+        font-size: 16px;
+    }
+    footer .footer-section .description{
+        display: flex;
+        flex-direction: column-reverse;
+        margin: auto;
+    }
+    footer .footer-section .description p{
+        margin-top: 20px;
+        text-align: center;
+    }
+    .footer-section .title {
+        text-align: center;
+        width: 90%;
+        margin-bottom: 25px;
+    }
+    footer .title p {
+        line-height: 18px;
+    }
+}
