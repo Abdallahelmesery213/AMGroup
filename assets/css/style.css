@@ -95,7 +95,7 @@ header nav ul li{
 /* start about section */
 .about{
     padding: 50px 0;
-    background-image: url(/assets/imgs/image-effect.jpg);
+    background-image: url("../imgs/image-effect.jpg");
     background-repeat: no-repeat;
     background-position: center;
     color: #fff;
@@ -173,7 +173,7 @@ header nav ul li{
 /* start footer */
 footer .footer-section{
     padding: 50px 0 20px;
-    background-image: url(/assets/imgs/image-effect.jpg);
+    background-image: url("../imgs/image-effect.jpg");
     background-repeat: no-repeat;
     background-position: center;
     color: #fff;
@@ -208,7 +208,7 @@ footer .footer-bottom ul li a{
 /* export screen */
 /* start export top */
 /* .export-screen .export-top{
-background-image: url(/assets/imgs/export_top.jpg);
+background-image: url("../imgs/export_top.jpg");
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
@@ -218,7 +218,7 @@ background-size: cover;
 color: #fff;
 }
 .export-screen .export-content{
-    background-image: url(/assets/imgs/image-effect.jpg);
+    background-image: url("../imgs/image-effect.jpg");
     background-repeat: no-repeat;
     background-position: center;
     padding: 60px 0;
